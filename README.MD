@@ -112,3 +112,13 @@ eval = Evaluation(model, run, history, x_test, y_test, snr, parameter,
                   model_name, best_weights, save_figures=True)
 eval.evaluate()
 ```
+
+### Sources
+[1] Diego Augusto Silva et al. “Exploring convolutional neural networks for voice activity detection”.
+In: Cognitive Technologies. Springer, 2017, pp. 37–47.
+
+[2] Aleksei Gusev et al. “Deep speaker embeddings for far-field speaker recognition on short utterances”.
+In: arXiv preprint arXiv:2002.06033 (2020)
+
+[3] Alexei Baevski et al. “wav2vec 2.0: A framework for self-supervised learning of speech representations”.
+In: arXiv preprint arXiv:2006.11477 (2020).
